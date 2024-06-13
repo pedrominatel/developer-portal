@@ -958,6 +958,10 @@ void app_main(void)
 
   2. Add the [espressif/console_cmd_wifi](https://components.espressif.com/components/espressif/console_cmd_wifi/versions/1.0.1) to add the functionality to control the WiFi connection vit the terminal console.
 
+  3. Use the SNTP to get the time from an NTP server.
+
+  4. Certificate bundle for HTTPS.
+
 ### Assignmnent: Using the LP core
 
 ---
@@ -973,7 +977,6 @@ Another talk form the DevCon23, is the [Low-Power Features of ESP32-C6: Target W
 ---
 
 One of the advantages of the WiFi6, is the Target Wake Time, or just TWT.
-
 
 ### Low-power features
 
@@ -1006,12 +1009,15 @@ CONFIG_ESP_WIFI_SLP_IRAM_OPT=y
 CONFIG_FREERTOS_HZ=1000
 ```
 
+> TODO Add PPK power consumption comparison.
 
 #### Low-power core
 
-I2C sensor read
+LP-blink
 
-GPIO Pooling
+> Steps for the LP-GPIO blink
+
+I2C sensor read
 
 ### Demos
 
@@ -1019,7 +1025,11 @@ GPIO Pooling
 
 #### PARLIO Logic Analyzer
 
+> TODO
+
 #### iTWT
+
+> TODO
 
 ### Conclusion
 
