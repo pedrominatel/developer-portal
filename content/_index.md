@@ -36,6 +36,12 @@ Here you can follow the current status of the new chip support in various Espres
 
 {{< article link="/pages/chip-support-status/esp32c61/" >}}
 
+## Upcoming Event
+
+Stay tuned for our upcoming events!
+
+No upcoming events.
+
 <br>
 {{< button href="#button" target="_self" href=/events/ >}}
 More Events
